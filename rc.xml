@@ -25,44 +25,95 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-        <name></name>
-        <size></size>
-        <weight></weight>
-        <slant></slant>
+        <name>Nunito</name>
+        <size>8</size>
+        <weight>bold</weight>
+        <slant>normal</slant>
     </font>
     <font place="InactiveWindow">
-        <name></name>
-        <size></size>
-        <weight></weight>
-        <slant></slant>
+        <name>Nunito</name>
+        <size>8</size>
+        <weight>bold</weight>
+        <slant>normal</slant>
     </font>
     <font place="MenuHeader">
-        <name></name>
-        <size></size>
-        <weight></weight>
-        <slant></slant>
+        <name>Nunito</name>
+        <size>9</size>
+        <weight>normal</weight>
+        <slant>normal</slant>
     </font>
     <font place="MenuItem">
-        <name></name>
-        <size></size>
-        <weight></weight>
-        <slant></slant>
+        <name>Nunito</name>
+        <size>9</size>
+        <weight>normal</weight>
+        <slant>normal</slant>
     </font>
     <font place="OnScreenDisplay">
-        <name></name>
-        <size></size>
-        <weight></weight>
-        <slant></slant>
+        <name>Nunito</name>
+        <size>9</size>
+        <weight>bold</weight>
+        <slant>normal</slant>
     </font>
 </theme>
 
 <desktops>
-    <numberfirstdesk></numberfirstdesk>
-    <popupTime></popupTime>
+    <number>1</number>
+    <firstdesk>1</firstdesk>
+    <popupTime>0</popupTime>
     <names>
-        <name></name>
-        <name></name>
-        <name></name>
-        <name></name>
+        <name>Desktop</name>
     </names>
 </desktops>
+
+<resize>
+    <drawContents>yes</drawContents>
+    <popupShow>Always</popupShow>
+    <popupPosition>Fixed</popupPosition>
+    <popupFixedPosition>
+        <x>400</x>
+        <y>center</y>
+    </popupFixedPosition>
+</resize>
+
+<keyboard>
+    <keybind key="C-A-t">
+        <action name="Execute">
+            <command>alacritty</command>
+        </action>
+    </keybind>
+    <!-- <keybind key="W-e">
+        <action name="OpenFileManager"/>
+    </keybind>
+    <keybind>
+        <action name=""/>
+    </keybind>
+    <keybind>
+        <action name=""/>
+    </keybind>
+    <keybind>
+        <action name=""/>
+    </keybind> -->
+</keyboard>
+
+<mouse>
+    <dragThreshold>8</dragThreshold>
+    <doubleClickTime>200</doubleClickTime>
+    <screenEdgeWarpTime>0</screenEdgeWarpTime>
+</mouse>
+
+<margin>
+    <top>0</top>
+    <left>0</left>
+    <right>0</right>
+    <bottom>0</bottom>
+</margin>
+
+<menu>
+    <hideDelay>250</hideDelay>
+    <middle>no</middle>
+    <submenuShowDelay>100</submenuShowDelay>
+    <submenuHideDelay>400   </submenuHideDelay>
+    <applicationIcons>yes</applicationIcons>
+    <manageDesktops>no</manageDesktops>
+    <!-- <file>menu.xml</file> -->
+</menu>
