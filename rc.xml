@@ -1,0 +1,68 @@
+<xml version="1.0" encoding="UTF-8">
+
+<resistance>
+    <strength>10</strength>
+    <screen_edge_strength>20</screen_edge_strength>
+</resistance>
+
+<focus>
+    <focusNew>yes</focusNew>
+    <focusLast>yes</focusLast>
+    <followMouse>no</followMouse>
+    <focusDelay>0</focusDelay>
+    <underMouse>no</underMouse>
+    <raiseOnFocus>no</raiseOnFocus>
+</focus>
+
+<placement>
+    <policy>Smart</policy>
+    <center>yes</center>
+</placement>
+
+<theme>
+    <name>Monkey</name>
+    <titleLayout>LIMC</titleLayout>
+    <keepBorder>yes</keepBorder>
+    <animateIconify>yes</animateIconify>
+    <font place="ActiveWindow">
+        <name></name>
+        <size></size>
+        <weight></weight>
+        <slant></slant>
+    </font>
+    <font place="InactiveWindow">
+        <name></name>
+        <size></size>
+        <weight></weight>
+        <slant></slant>
+    </font>
+    <font place="MenuHeader">
+        <name></name>
+        <size></size>
+        <weight></weight>
+        <slant></slant>
+    </font>
+    <font place="MenuItem">
+        <name></name>
+        <size></size>
+        <weight></weight>
+        <slant></slant>
+    </font>
+    <font place="OnScreenDisplay">
+        <name></name>
+        <size></size>
+        <weight></weight>
+        <slant></slant>
+    </font>
+</theme>
+
+<desktops>
+    <numberfirstdesk></numberfirstdesk>
+    <popupTime></popupTime>
+    <names>
+        <name></name>
+        <name></name>
+        <name></name>
+        <name></name>
+    </names>
+</desktops>
