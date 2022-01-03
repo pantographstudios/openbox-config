@@ -1,6 +1,6 @@
 size = 12
 
-circle_radius = 5.6
+circle_radius = 6
 
 pixels = [0 for i in range(0, size**2)]
 
