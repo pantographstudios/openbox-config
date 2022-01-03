@@ -27,11 +27,11 @@ for i in range(0, size):
             byte += "0"
         
         if len(byte) == 8:
-            output += '0x' + (hex(int(byte, 2)))[2:].zfill(2) + ', '
+            output += '0x' + (hex(int(byte[::-1], 2)))[2:].zfill(2) + ', '
             byte = ""
 
 if len(byte) > 0:
-    output += '0x' + (hex(int(byte, 2)))[2:].zfill(2) + ', '
+    output += '0x' + (hex(int(byte.zfill(8)[::-1], 2)))[2:].zfill(2) + ', '
     byte = ""
 
 output = output[:-2]
