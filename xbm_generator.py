@@ -43,3 +43,4 @@ output += "};"
 
 with open('close.xbm', mode = 'w') as file:
     file.write(output)
+
