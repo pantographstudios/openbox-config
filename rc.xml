@@ -1,119 +1,141 @@
-<xml version="1.0" encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
 
-<resistance>
-    <strength>10</strength>
-    <screen_edge_strength>20</screen_edge_strength>
-</resistance>
+<openbox_config>
+    <resistance>
+        <strength>10</strength>
+        <screen_edge_strength>20</screen_edge_strength>
+    </resistance>
 
-<focus>
-    <focusNew>yes</focusNew>
-    <focusLast>yes</focusLast>
-    <followMouse>no</followMouse>
-    <focusDelay>0</focusDelay>
-    <underMouse>no</underMouse>
-    <raiseOnFocus>no</raiseOnFocus>
-</focus>
+    <focus>
+        <focusNew>yes</focusNew>
+        <focusLast>yes</focusLast>
+        <followMouse>no</followMouse>
+        <focusDelay>0</focusDelay>
+        <underMouse>no</underMouse>
+        <raiseOnFocus>no</raiseOnFocus>
+    </focus>
 
-<placement>
-    <policy>Smart</policy>
-    <center>yes</center>
-</placement>
+    <placement>
+        <policy>Smart</policy>
+        <center>yes</center>
+    </placement>
 
-<theme>
-    <name>Monkey</name>
-    <titleLayout>LIMC</titleLayout>
-    <keepBorder>yes</keepBorder>
-    <animateIconify>yes</animateIconify>
-    <font place="ActiveWindow">
-        <name>Nunito</name>
-        <size>8</size>
-        <weight>bold</weight>
-        <slant>normal</slant>
-    </font>
-    <font place="InactiveWindow">
-        <name>Nunito</name>
-        <size>8</size>
-        <weight>bold</weight>
-        <slant>normal</slant>
-    </font>
-    <font place="MenuHeader">
-        <name>Nunito</name>
-        <size>9</size>
-        <weight>normal</weight>
-        <slant>normal</slant>
-    </font>
-    <font place="MenuItem">
-        <name>Nunito</name>
-        <size>9</size>
-        <weight>normal</weight>
-        <slant>normal</slant>
-    </font>
-    <font place="OnScreenDisplay">
-        <name>Nunito</name>
-        <size>9</size>
-        <weight>bold</weight>
-        <slant>normal</slant>
-    </font>
-</theme>
+    <theme>
+        <name>Monkey</name>
+        <titleLayout>LIMC</titleLayout>
+        <keepBorder>yes</keepBorder>
+        <animateIconify>yes</animateIconify>
+        <font place="ActiveWindow">
+            <name>Nunito</name>
+            <size>8</size>
+            <weight>bold</weight>
+            <slant>normal</slant>
+        </font>
+        <font place="InactiveWindow">
+            <name>Nunito</name>
+            <size>8</size>
+            <weight>bold</weight>
+            <slant>normal</slant>
+        </font>
+        <font place="MenuHeader">
+            <name>Nunito</name>
+            <size>9</size>
+            <weight>normal</weight>
+            <slant>normal</slant>
+        </font>
+        <font place="MenuItem">
+            <name>Nunito</name>
+            <size>9</size>
+            <weight>normal</weight>
+            <slant>normal</slant>
+        </font>
+        <font place="OnScreenDisplay">
+            <name>Nunito</name>
+            <size>9</size>
+            <weight>bold</weight>
+            <slant>normal</slant>
+        </font>
+    </theme>
 
-<desktops>
-    <number>1</number>
-    <firstdesk>1</firstdesk>
-    <popupTime>0</popupTime>
-    <names>
-        <name>Desktop</name>
-    </names>
-</desktops>
+    <desktops>
+        <number>1</number>
+        <firstdesk>1</firstdesk>
+        <popupTime>0</popupTime>
+        <names>
+            <name>Desktop</name>
+        </names>
+    </desktops>
 
-<resize>
-    <drawContents>yes</drawContents>
-    <popupShow>Always</popupShow>
-    <popupPosition>Fixed</popupPosition>
-    <popupFixedPosition>
-        <x>400</x>
-        <y>center</y>
-    </popupFixedPosition>
-</resize>
+    <resize>
+        <drawContents>yes</drawContents>
+        <popupShow>Always</popupShow>
+        <popupPosition>Fixed</popupPosition>
+        <popupFixedPosition>
+            <x>400</x>
+            <y>center</y>
+        </popupFixedPosition>
+    </resize>
 
-<keyboard>
-    <keybind key="C-A-t">
-        <action name="Execute">
-            <command>alacritty</command>
-        </action>
-    </keybind>
-    <!-- <keybind key="W-e">
-        <action name="OpenFileManager"/>
-    </keybind>
-    <keybind>
-        <action name=""/>
-    </keybind>
-    <keybind>
-        <action name=""/>
-    </keybind>
-    <keybind>
-        <action name=""/>
-    </keybind> -->
-</keyboard>
+    <keyboard>
+        <keybind key="C-A-t">
+            <action name="Execute">
+                <command>alacritty</command>
+            </action>
+        </keybind>
+        <!-- <keybind key="W-e">
+            <action name="OpenFileManager"/>
+        </keybind>
+        <keybind>
+            <action name=""/>
+        </keybind>
+        <keybind>
+            <action name=""/>
+        </keybind>
+        <keybind>
+            <action name=""/>
+        </keybind> -->
+    </keyboard>
 
-<mouse>
-    <dragThreshold>8</dragThreshold>
-    <doubleClickTime>200</doubleClickTime>
-    <screenEdgeWarpTime>0</screenEdgeWarpTime>
-</mouse>
+    <mouse>
+        <dragThreshold>8</dragThreshold>
+        <doubleClickTime>200</doubleClickTime>
+        <screenEdgeWarpTime>0</screenEdgeWarpTime>
+        <context name="Frame Titlebar">
+            <mousebind button="Left" action="Press">
+                <action name="Focus"/>
+                <action name="Raise"/>
+            </mousebind>
+        </context>
+        <context name="Titlebar">
+            <mousebind button="Left" action="Drag">
+                <action name="Move"/>
+            </mousebind>
+            <mousebind button="Left" action="DoubleClick">
+                <action name="ToggleMaximizeFull"/>
+            </mousebind>
+            <!-- <mousebind>
+                <action></action>
+            </mousebind>
+            <mousebind>
+                <action></action>
+            </mousebind> -->
+        </context>
+    </mouse>
 
-<margin>
-    <top>0</top>
-    <left>0</left>
-    <right>0</right>
-    <bottom>0</bottom>
-</margin>
+    <margin>
+        <top>0</top>
+        <left>0</left>
+        <right>0</right>
+        <bottom>0</bottom>
+    </margin>
 
-<menu>
-    <hideDelay>250</hideDelay>
-    <middle>no</middle>
-    <submenuShowDelay>100</submenuShowDelay>
-    <submenuHideDelay>400   </submenuHideDelay>
-    <applicationIcons>yes</applicationIcons>
-    <manageDesktops>no</manageDesktops>
-    <!-- <file>menu.xml</file> -->
-</menu>
+    <menu>
+        <hideDelay>250</hideDelay>
+        <middle>no</middle>
+        <submenuShowDelay>100</submenuShowDelay>
+        <submenuHideDelay>400   </submenuHideDelay>
+        <applicationIcons>yes</applicationIcons>
+        <manageDesktops>no</manageDesktops>
+        <!-- <file>menu.xml</file> -->
+    </menu>
+</openbox_config>

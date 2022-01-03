@@ -1,0 +1,147 @@
+# Window Geometry
+
+border.width: 1
+menu.border.width: 1
+
+menu.separator.width: 1
+menu.separator.padding.width: 5
+menu.separator.padding.height: 3
+
+osd.border.width: 1
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+
+window.handle.width: 0
+
+padding.width: 0
+padding.height: 0
+
+menu.overlap.x: 0
+menu.overlap.y: 0
+
+# Border Colors
+
+window.active.border.color:
+window.inactive.border.color:
+
+window.active.title.separator.color:
+window.inactive.title.separator.color:
+
+window.active.client.color:
+window.inactive.client.color:
+
+menu.border.color:
+
+osd.border.color:
+
+# Titlebar Colors
+
+window.active.label.text.color:
+window.inactive.lavel.text.color:
+
+window.active.button.unpressed.image.color:
+window.inactive.button.unpressed.image.color:
+
+window.active.button.pressed.image.color:
+window.inactive.button.pressed.image.color:
+
+window.active.button.disabled.image.color:
+window.inactive.button.disabled.image.color:
+
+window.active.button.hover.image.color:
+window.inactive.button.hover.image.color:
+
+window.active.button.toggled.unpressed.image.color:
+window.inactive.button.toggled.unpressed.image.color:
+
+window.active.button.toggled.pressed.image.color:
+window.inactive.button.toggled.pressed.image.color:
+
+window.active.button.toggled.hover.image.color:
+window.inactive.button.toggled.hover.image.color:
+
+# Window Textures
+
+window.active.title.bg:
+window.inactive.title.bg:
+
+window.active.label.bg:
+window.inactive.label.bg:
+
+window.active.handle.bg:
+window.inactive.handle.bg:
+
+window.active.grip.bg:
+window.inactive.grip.bg:
+
+# Window Button Textures
+
+window.active.button.unpressed.bg:
+window.inactive.button.unpressed.bg:
+
+window.active.button.pressed.bg:
+window.inactive.button.pressed.bg:
+
+window.active.button.hover.bg:
+window.inactive.button.hover.bg:
+
+window.active.button.disabled.bg:
+window.inactive.button.disabled.bg:
+
+window.active.button.toggled.unpressed.bg:
+window.inactive.button.toggled.unpressed.bg:
+
+window.acive.button.toggled.pressed.bg:
+window.inactive.button.toggled.pressed.bg:
+
+window.active.button.toggled.hover.bg:
+window.inactive.button.toggled.hover.bg:
+
+# Menu Colors
+
+menu.title.text.color:
+
+menu.items.text.color:
+menu.items.disabled.text.color:
+
+menu.items.active.text.color:
+menu.items.active.disabled.text.color:
+
+menu.separator.color:
+
+# Menu Textures
+
+menu.items.bg:
+menu.items.active.bg:
+menu.title.bg:
+
+# OSD Textures
+
+osd.bg:
+osd.label.bg:
+
+osd.hilight.bg:
+osd.unhilight.bg:
+
+# OSD Colors
+
+osd.label.text.color:
+
+osd.highlight.bg.color:
+osd.unhilight.bg.color:
+
+# Text Justification
+
+window.label.text.justify:
+menu.title.text.justify:
+
+# Text Shadows
+
+window.active.label.text.font:
+window.inactive.label.text.font:
+
+menu.items.font:
+menu.title.text.font:
+
+osd.label.text.font:
