@@ -1,6 +1,6 @@
-size = 16
+size = 12
 
-circle_radius = 7
+circle_radius = 5.6
 
 pixels = [0 for i in range(0, size**2)]
 
@@ -23,12 +23,16 @@ for i in range(0, size):
         if pixel_in_circle(i, j, circle_radius, size/2):
             pixels[i*size + j] = 1
             byte += "1"
+            s += "X"
         else:
             byte += "0"
-        
+            s += "O"
+            
         if len(byte) == 8:
             output += '0x' + (hex(int(byte[::-1], 2)))[2:].zfill(2) + ', '
             byte = ""
+
+    print(s)
 
 if len(byte) > 0:
     output += '0x' + (hex(int(byte.zfill(8)[::-1], 2)))[2:].zfill(2) + ', '
