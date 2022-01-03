@@ -21,7 +21,7 @@
     </placement>
 
     <theme>
-        <name>Monkey</name>
+        <name>Monkey-Dark</name>
         <titleLayout>LIMC</titleLayout>
         <keepBorder>yes</keepBorder>
         <animateIconify>yes</animateIconify>
@@ -68,12 +68,7 @@
 
     <resize>
         <drawContents>yes</drawContents>
-        <popupShow>Always</popupShow>
-        <popupPosition>Fixed</popupPosition>
-        <popupFixedPosition>
-            <x>400</x>
-            <y>center</y>
-        </popupFixedPosition>
+        <popupShow>Never</popupShow>
     </resize>
 
     <keyboard>

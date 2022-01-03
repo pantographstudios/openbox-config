@@ -22,8 +22,9 @@ menu.overlap.y: 0
 
 # Border Colors
 
-window.active.border.color:
-window.inactive.border.color:
+# nord3 (active) nord0 (inactive)
+window.active.border.color: #4C566A
+window.inactive.border.color: #2E3440
 
 window.active.title.separator.color:
 window.inactive.title.separator.color:
